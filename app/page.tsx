@@ -1,13 +1,13 @@
 const Page = () => {
   return(
-    <main className='min-w-full min-h-screen'>
-      <div className='flex flex-row justify-end items-end'>
-        <button className='bg-blue-800 rounded-sm text-xl text-white p-4'>SignIn</button>
-      </div>
-      <div className='flex flex-col justify-center items-center'>
-      <h1>Welcome to the Home page</h1>
-      </div>
-      </main>
+    <main className='min-w-full min-h-screen flex flex-col'>
+  <div className='flex flex-row justify-end flex-grow-0'>
+    <button className='bg-blue-900 p-4 text-xl text-white rounded-xl m-4'>SignIn</button>
+  </div>
+  <div className='flex flex-col justify-center items-center flex-grow text-4xl text-blue-400'>
+    <h1>Welcome to clipcraft app</h1>
+  </div>
+</main>
   )
 }
 
